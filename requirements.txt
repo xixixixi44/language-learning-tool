@@ -5,7 +5,7 @@ openai-whisper>=20231117
 PyQt6>=6.5.0
 librosa>=0.10.0
 pydub>=0.25.1
-numpy>=1.24.0
+numpy<2.0.0
 matplotlib>=3.7.0
 pyaudio>=0.2.11
 
@@ -18,7 +18,7 @@ resampy>=0.4.2
 PyQt6-Qt6>=6.5.0
 
 # Whisper依赖
-torch>=2.0.0
+torch==2.0.1
 torchaudio>=2.0.0
 transformers>=4.21.0
 tokenizers>=0.13.0
