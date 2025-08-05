@@ -1,0 +1,41 @@
+# 语言学习工具依赖包
+
+# 核心功能
+openai-whisper>=20231117
+PyQt6>=6.5.0
+librosa>=0.10.0
+pydub>=0.25.1
+numpy>=1.24.0
+matplotlib>=3.7.0
+pyaudio>=0.2.11
+
+# 音频处理相关
+soundfile>=0.12.1
+scipy>=1.11.0
+resampy>=0.4.2
+
+# PyQt6相关
+PyQt6-Qt6>=6.5.0
+
+# Whisper依赖
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.21.0
+tokenizers>=0.13.0
+
+# 音频编解码
+ffmpeg-python>=0.2.0
+
+# 系统工具
+setuptools>=65.0.0
+wheel>=0.40.0
+pip>=23.0.0
+
+# 可选依赖（性能优化）
+numba>=0.57.0  # librosa加速
+llvmlite>=0.40.0  # numba依赖
+
+# 开发和调试工具（可选）
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
