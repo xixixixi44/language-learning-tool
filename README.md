@@ -28,31 +28,18 @@
 python3 -m venv venv
 source venv/bin/activate
 
+
+# 升级 pip
+pip install --upgrade pip
+
 # 安装依赖
 pip install -r requirements.txt
+
+# 运行自检
+python3 test_installation.py
 ```
 
-### 2. 安装FFmpeg（音频处理必需）
-
-```bash
-# 使用Homebrew安装
-brew install ffmpeg
-
-# 或者使用MacPorts
-sudo port install ffmpeg
-```
-
-### 3. 安装PortAudio（录音功能必需）
-
-```bash
-# 使用Homebrew安装
-brew install portaudio
-
-# 如果pyaudio安装失败，尝试：
-pip install --global-option='build_ext' --global-option='-I/opt/homebrew/include' --global-option='-L/opt/homebrew/lib' pyaudio
-```
-
-### 4. 运行程序
+### 2. 运行程序
 
 ```bash
 python main.py
